@@ -22,7 +22,6 @@ function App() {
       title={"Continued Growth"}
       subtitle={"Practicing software development for three years; learning from developers on platforms like Coursera & YouTube! After enjoying myself throughout the development process and growing over the years. I have recently attended an immersive fullstack coding bootcamp at Coding Dojo to continue the life-long learning process!"}
       />
-
       <Slider imageSrc={travel_03}
       title={"Into the unknown"}
       subtitle={"Accustoming myself to being comfortable with discomfort. Understanding that I do not know it all but I can identify where to start learning, in order to fill the gaps, one day at a time."}

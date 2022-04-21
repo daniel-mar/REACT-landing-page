@@ -13,7 +13,6 @@ const Slider = ({ imageSrc, title, subtitle, flipped }) => {
         threshold: 0.4,
     });
 
-
     // build function to be called within the div
     // that will determine the position of the images (left or right)
     const renderContent = () => {
