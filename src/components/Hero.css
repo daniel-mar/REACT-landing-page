@@ -1,0 +1,68 @@
+.hero {
+    position: relative;
+    width: 100%;
+    /* the entire viewport */
+    height: 100vh;
+}
+
+.hero__image {
+    /* important to maintain aspect ratio */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+/* positions to the bottom right of the main hero div */
+.hero__title {
+    position: absolute;
+    bottom: 15%;
+    right: 10%;
+    color: #fff;
+    font-size: 4rem;
+    padding: 15px;
+    text-shadow: 3px 3px 3px blue;
+}
+
+.hero__subtitle {
+    position: absolute;
+    bottom: 8%;
+    right: 10%;
+    color: #fff;
+    font-size: 4rem;
+    padding: 15px;
+    text-shadow: 3px 3px 3px blue;
+}
+
+.last_name__style {
+    color: rgb(0, 245, 204);
+    text-shadow: 3px 3px 3px #000;
+}
+
+
+@media screen and (max-width: 810px) {
+    .hero__land__copy {
+        flex-direction: column;
+        font-size: 2.4rem;
+    }
+}
+
+@media screen and (max-width: 495px) {
+    .hero__land__copy {
+        font-size: 1.8rem;
+    }
+
+    .hero__image {
+        /* important to maintain aspect ratio */
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: absolute;
+    }
+}
+
+@media screen and (max-width: 381) {
+    .hero__land__copy {
+        font-size: 1rem;
+    }
+}
