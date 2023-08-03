@@ -19,12 +19,12 @@ function App() {
       <Hero imageSrc={travel_01}/>
       {/* the slider accepts props: imageSrc, title, subtitle, flipped */}
       <Slider imageSrc={travel_02}
-      title={"Continued Growth"}
-      subtitle={"Practicing software development for three years; learning from developers on platforms like Coursera & YouTube! After enjoying myself throughout the development process and growing over the years. I have recently attended an immersive fullstack coding bootcamp at Coding Dojo to continue the life-long learning process!"}
+      title={"Software Engineering Background"}
+      subtitle={"Full stack applications w/ tech stacks: Python [Flask, Jinja, SQL]. C# [.NET, SQL]. MERN [MongoDB, Express, React18, Node]. Java [Springboot, SQL, Rollbar]"}
       />
       <Slider imageSrc={travel_03}
-      title={"Into the unknown"}
-      subtitle={"Accustoming myself to being comfortable with discomfort. Understanding that I do not know it all but I can identify where to start learning, in order to fill the gaps, one day at a time."}
+      title={"Recent Professional Experience"}
+      subtitle={"Entering Microsoft with my background, I had to quickly adapt to a new environment while picking up TypeScript and understanding the existing codebase which used KnockoutJs as components, ARM, ARG for our data and Enzyme for testing. \nIt was quite fun being able to learn and have mentors around me with the ability to teach me along the way. I am fortunate to have been apart of a team that had to focus to improve the policies and guidelines for companies all over the globe. Working at such a fast pace, I gained greater depth of what a software engineer can be and the different roles we all play to achieve a successful semester."}
       flipped={true}
       />
     </div>
