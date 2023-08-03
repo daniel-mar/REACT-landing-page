@@ -20,11 +20,11 @@ function App() {
       {/* the slider accepts props: imageSrc, title, subtitle, flipped */}
       <Slider imageSrc={travel_02}
       title={"Software Engineering Background"}
-      subtitle={"Full stack applications w/ tech stacks: Python [Flask, Jinja, SQL]. C# [.NET, SQL]. MERN [MongoDB, Express, React18, Node]. Java [Springboot, SQL, Rollbar]"}
+      subtitle={"Full stack applications w/ tech stacks: Professional: [Typescript, React18, FluentUI, ARM/ARG, Enzyme, RTL]. Python [Flask, Jinja, SQL]. C# [.NET, SQL]. MERN [MongoDB, Express, React18, Node]. Java [Springboot, SQL, Rollbar]"}
       />
       <Slider imageSrc={travel_03}
-      title={"Recent Professional Experience"}
-      subtitle={"Entering Microsoft with my background, I had to quickly adapt to a new environment while picking up TypeScript and understanding the existing codebase which used KnockoutJs as components, ARM, ARG for our data and Enzyme for testing. \nIt was quite fun being able to learn and have mentors around me with the ability to teach me along the way. I am fortunate to have been apart of a team that had to focus to improve the policies and guidelines for companies all over the globe. Working at such a fast pace, I gained greater depth of what a software engineer can be and the different roles we all play to achieve a successful semester."}
+      title={"Professional Experience"}
+      subtitle={"Coming from MERN background, picked up TypeScript and understanding the existing codebase which used KnockoutJs blade components, ARM, ARG for our data and Enzyme for testing. Where I had to use existing API functions or learn how to do the equivalent of KnockoutJs in React18. It was quite fun being able to learn and have mentors around me with the ability to teach me along the way. I am fortunate to have been apart of a team that had to focus to improve the policies and guidelines for companies all over the globe. Working at such a fast pace, I gained greater depth of what a software engineer can be and the different roles we all play to achieve a successful semester. I am looking for the new chapter of my journey that will provide me with a longer career experience and growth."}
       flipped={true}
       />
     </div>
